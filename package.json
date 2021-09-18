@@ -2,9 +2,9 @@
   "name": "graijammer",
   "version": "0.0.1",
   "description": "A discord music bot.",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "ts-node src/index.ts",
     "watch": "tsc -p tsconfig.json -w",
     "test": "mocha -r ts-node/register \"tests/**/*.spec.ts\""
   },

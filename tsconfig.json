@@ -1,25 +1,30 @@
 {
     "compilerOptions": {
-      "module": "commonjs",
-      "moduleResolution": "node",
-      "target": "es2016",
-      "lib": [
-        "es6",
-        "dom"
-      ],
-      "sourceMap": true,
-      "types": [
-        "node",
-        "reflect-metadata"
-      ],
-      "typeRoots": [
-        "node_modules/@types"
-      ],
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "resolveJsonModule": true
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es6",
+        "lib": [
+            "es6",
+            "dom",
+        ],
+        "sourceMap": true,
+        "types": [
+            "node",
+            "reflect-metadata"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "outDir": "dist",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true
     },
+    "include": [
+        "src/*.ts"
+    ],
     "exclude": [
-      "node_modules"
+        "node_modules"
     ]
 }
