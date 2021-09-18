@@ -1,0 +1,33 @@
+{
+  "name": "graijammer",
+  "version": "0.0.1",
+  "description": "A discord music bot.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node src/index.js",
+    "watch": "tsc -p tsconfig.json -w",
+    "test": "mocha -r ts-node/register \"tests/**/*.spec.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catric96/GraiJammer.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Catric",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/catric96/GraiJammer/issues"
+  },
+  "homepage": "https://github.com/catric96/GraiJammer#readme",
+  "dependencies": {
+    "@types/node": "^16.9.2",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "inversify": "^5.1.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.4.3"
+  }
+}
