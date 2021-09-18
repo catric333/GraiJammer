@@ -4,7 +4,7 @@ import {TYPES} from "./types";
 import {Bot} from "./bot";
 import {Client, Intents, Options} from "discord.js";
 import { MessageResponder } from "./services/message-responder";
-import { PingFinder } from "./services/ping-finder";
+import { ParseResponses } from "./services/parse-responses";
 
 let container = new Container();
 let options = Options.createDefault();
@@ -22,6 +22,6 @@ container.bind<Bot>(TYPES.Bot).to(Bot).inSingletonScope();
 container.bind<Client>(TYPES.Client).toConstantValue(new Client(options));
 container.bind<string>(TYPES.Token).toConstantValue(process.env.TOKEN);
 container.bind<MessageResponder>(TYPES.MessageResponder).to(MessageResponder).inSingletonScope();
-container.bind<PingFinder>(TYPES.PingFinder).to(PingFinder).inSingletonScope();
+container.bind<ParseResponses>(TYPES.ParseResponses).to(ParseResponses).inSingletonScope();
 
 export default container;

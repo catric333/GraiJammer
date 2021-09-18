@@ -4,5 +4,5 @@ export const TYPES = {
     Options: Symbol("Options"),
     Token: Symbol("Token"),
     MessageResponder: Symbol("MessageResponder"),
-    PingFinder: Symbol("PingFinder")
+    ParseResponses: Symbol("ParseResponses")
 }

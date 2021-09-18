@@ -23,11 +23,15 @@
   },
   "homepage": "https://github.com/catric96/GraiJammer#readme",
   "dependencies": {
+    "@discordjs/opus": "^0.6.0",
+    "@discordjs/voice": "^0.6.0",
     "@types/node": "^16.9.2",
     "discord.js": "^13.1.0",
     "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.4.0",
     "inversify": "^5.1.1",
     "reflect-metadata": "^0.1.13",
+    "tweetnacl": "^1.0.3",
     "typescript": "^4.4.3"
   }
 }
