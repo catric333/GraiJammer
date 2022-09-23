@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/catric96/GraiJammer.git"
+    "url": "git+https://github.com/catric333/GraiJammer.git"
   },
   "keywords": [
     "discord",
@@ -19,9 +19,9 @@
   "author": "Catric",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/catric96/GraiJammer/issues"
+    "url": "https://github.com/catric333/GraiJammer/issues"
   },
-  "homepage": "https://github.com/catric96/GraiJammer#readme",
+  "homepage": "https://github.com/catric333/GraiJammer#readme",
   "dependencies": {
     "@discordjs/opus": "^0.6.0",
     "@discordjs/voice": "^0.6.0",
